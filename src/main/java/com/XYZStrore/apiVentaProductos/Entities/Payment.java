@@ -7,6 +7,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Builder
@@ -18,13 +19,13 @@ public class Payment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private Double fullPayment;
+    private BigDecimal fullPayment;
     @Temporal(TemporalType.TIMESTAMP)
     private LocalDateTime datePayment;
     private PaymentMethod paymentMethod;
 
     public Payment() {
     }
-    @OneToOne
+    @OneToOne(mappedBy = "payment")
     private Order order;
 }

@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 @Getter
 @Setter
 @AllArgsConstructor
-@Entity(name = "ItemOrders")
+@Entity(name = "item_orders")
 public class ItemOrder {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,8 +21,11 @@ public class ItemOrder {
     private BigDecimal unitPrice;
 
     @ManyToOne
+    @JoinColumn(name = "id_itemOrder")
     private Order order;
+
     @ManyToOne
+    @JoinColumn(name = "id_product")
     private Product product;
 
     public ItemOrder() {

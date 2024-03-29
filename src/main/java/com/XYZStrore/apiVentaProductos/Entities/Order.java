@@ -14,7 +14,7 @@ import java.util.List;
 @AllArgsConstructor
 @Getter
 @Setter
-@Entity(name = "Orders")
+@Entity(name = "orders")
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,16 +25,18 @@ public class Order {
     private Status status;
 
     @ManyToOne
-    @JoinColumn(name = "id_customer")
+    @JoinColumn(name = "id_customer", referencedColumnName = "id")
     private Customer customer;
 
     @OneToMany(mappedBy = "order")
     private List<ItemOrder> itemOrder;
 
     @OneToOne
+    @JoinColumn(name = "id_payment", referencedColumnName = "id")
     private Payment payment;
 
     @OneToOne
+    @JoinColumn(name = "id_shipping_detail", referencedColumnName = "id")
     private ShippingDetail shippingDetail;
 
     public Order() {

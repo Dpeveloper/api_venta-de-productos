@@ -4,7 +4,7 @@ import com.XYZStrore.apiVentaProductos.Entities.ShippingDetail;
 import com.XYZStrore.apiVentaProductos.enums.Status;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface ShippingDatailRepository extends JpaRepository<ShippingDetail,Long> {
+public interface ShippingDetailRepository extends JpaRepository<ShippingDetail,Long> {
 
     ShippingDetail findByOrderId(Long id);
 

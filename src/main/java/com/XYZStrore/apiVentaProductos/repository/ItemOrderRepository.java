@@ -10,9 +10,9 @@ import java.util.List;
 
 public interface ItemOrderRepository extends JpaRepository<ItemOrder,Long> {
 
-    ItemOrder findByOrderId(Long id);
-    List<ItemOrder> findByProductsId(Long id);
-    @Query("SELECT SUM(io.quantity) * io.unitPrice FROM ItemOrders io WHERE io.product.id = :productId")
+    List<ItemOrder> findByOrderId(Long id);
+    List<ItemOrder> findByProductId(Long id);
+    @Query("SELECT SUM(io.quantity) * io.unitPrice FROM item_orders io WHERE io.product.id = :productId")
     BigDecimal getTotalSalesAmountForProduct(@Param("productId") Long productId);
 
 }

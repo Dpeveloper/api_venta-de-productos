@@ -10,7 +10,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-@Entity(name = "ShippingDetailS")
+@Entity(name = "shippingDetailS")
 public class ShippingDetail {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,8 +19,9 @@ public class ShippingDetail {
     private String conveyor;
     private Integer numberGuide;
 
-    @OneToOne
+    @OneToOne(mappedBy = "shippingDetail")
     private Order order;
+
     public ShippingDetail() {
     }
 }

@@ -13,7 +13,7 @@ public interface PaymentRepository extends JpaRepository<Payment,Long> {
     List<Payment> findByDatePaymentBetween(LocalDateTime dateTime1, LocalDateTime dateTime2);
 
     @Query("SELECT p FROM payments p WHERE p.order.id = :orderId AND p.paymentMethod = :paymentMethod")
-    List<Payment> findByOrderAndPaymentMethod(Long orderId, PaymentMethod paymentMethod);
+    List<Payment> findByOrderIdAndPaymentMethod(Long orderId, PaymentMethod paymentMethod);
 
 
 }

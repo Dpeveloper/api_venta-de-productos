@@ -12,17 +12,16 @@ import java.util.List;
 @Getter
 @Setter
 @AllArgsConstructor
-@Entity(name = "Customers")
+@Entity(name = "customers")
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    private String Email;
+    private String email;
     private String address;
 
     @OneToMany(mappedBy = "customer")
-    @JoinColumn(name = "id_order")
     private List<Order> orders;
     public Customer() {
     }

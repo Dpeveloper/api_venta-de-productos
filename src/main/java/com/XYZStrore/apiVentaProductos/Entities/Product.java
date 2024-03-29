@@ -13,14 +13,14 @@ import java.util.List;
 @AllArgsConstructor
 @Getter
 @Setter
-@Entity(name = "Products")
+@Entity(name = "products")
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private BigDecimal price;
-    private Integer Stock;
+    private Integer stock;
 
     @OneToMany(mappedBy = "product")
     private List<ItemOrder> itemOrder;

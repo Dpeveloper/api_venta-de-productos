@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="757171d9-9095-43c5-87f4-3d7db33d26c4" name="Changes" comment="Creacion de entidades y capa de repository" />
+    <list default="true" id="757171d9-9095-43c5-87f4-3d7db33d26c4" name="Changes" comment="Creacion de entidades y capa de repository">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/XYZStrore/apiVentaProductos/AbstractDBTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/XYZStrore/apiVentaProductos/repository/CustomerRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/XYZStrore/apiVentaProductos/repository/ItemOrderRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/XYZStrore/apiVentaProductos/repository/OrderRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/XYZStrore/apiVentaProductos/repository/PaymentRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/XYZStrore/apiVentaProductos/repository/ProductRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/XYZStrore/apiVentaProductos/repository/ShippingDetailRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/Entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/Entities/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/Entities/ItemOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/Entities/ItemOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/Entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/Entities/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/Entities/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/Entities/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/Entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/Entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/Entities/ShippingDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/Entities/ShippingDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/repository/ItemOrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/repository/ItemOrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/repository/PaymentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/repository/ShippingDatailRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/repository/ShippingDetailRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,11 +41,22 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -63,26 +100,198 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Java projects/apiVentaProductos",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build apiVentaProductos.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CustomerRepositoryTest.givenCustomer_whenDeleteById.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CustomerRepositoryTest.givenCustomer_whenFindByAddres_thenReturnCustomerFound.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CustomerRepositoryTest.givenCustomer_whenFindByEmail_thenReturnCustomerFound.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CustomerRepositoryTest.givenCustomer_whenFindById_thenReturnCustomerFound.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CustomerRepositoryTest.givenCustomer_whenFindByStratingWith_thenReturnCustomerFound.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CustomerRepositoryTest.givenCustomer_whenSave_thenReturnCustomer.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ItemOrderRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ItemOrderRepositoryTest.givenCustomer_whenFindById_thenReturnCustomerFound.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ItemOrderRepositoryTest.givenCustomer_whenSave_thenReturnCustomer.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ItemOrderRepositoryTest.givenItemOrder_whenDeleteById.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ItemOrderRepositoryTest.givenItemOrder_whenFindById_thenReturnItemOrderFound.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ItemOrderRepositoryTest.givenItemOrder_whenFindByOrderId_thenReturnItemOrderFound.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ItemOrderRepositoryTest.givenItemOrder_whenFindByPedidoId_thenReturnItemOrderFound.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ItemOrderRepositoryTest.givenItemOrder_whenFindByProductId_thenReturnItemOrderFound.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ItemOrderRepositoryTest.givenItemOrder_whenSave_thenReturnItemOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OrderRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OrderRepositoryTest.givenOrder_whenFindByCustomerAndStatus_thenReturnOrderFound.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OrderRepositoryTest.givenOrder_whenFindByCustomerWithOrderItems_thenReturnOrders.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OrderRepositoryTest.givenOrder_whenFindById_thenReturnOrderFound.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OrderRepositoryTest.givenOrder_whenFindByOrderDateBetween_thenReturnOrderFound.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PaymentRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PaymentRepositoryTest.givenOrder_whenFindByOrderDateBetween_thenReturnOrderFound.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PaymentRepositoryTest.givenOrder_whenFindByOrderIdAndPaymentMethod_thenReturnPaymentFound.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.PaymentRepositoryTest.givenPayment_whenFindById_thenReturnPaymentFound.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PaymentRepositoryTest.givenPayment_whenSave_thenReturnPayment.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProductRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProductRepositoryTest.givenProduct_whenDeleteById.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProductRepositoryTest.givenProduct_whenFindById_thenReturnProductFound.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProductRepositoryTest.givenProduct_whenFindByName_thenReturnProduct.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProductRepositoryTest.givenProduct_whenFindByPriceLessThanAndStockLessThan_thenReturnProduct.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProductRepositoryTest.givenProduct_whenFindByStockGreaterThan_thenReturnProduct.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProductRepositoryTest.givenProduct_whenSave_thenReturnProduct.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ShippingDetailRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ShippingDetailRepositoryTest.givenShippingDetail_whenFindByConveyor_thenReturnShippingDetailFound.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ShippingDetailRepositoryTest.givenShippingDetail_whenFindById_thenReturnShippingDetailFound.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ShippingDetailRepositoryTest.givenShippingDetail_whenFindByOrderId_thenReturnShippingDetailFound.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ShippingDetailRepositoryTest.givenShippingDetail_whenFindByOrderStatus_thenReturnShippingDetailFound.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApiVentaProductosApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java projects/apiVentaProductos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.XYZStrore.apiVentaProductos.Entities" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.XYZStrore.apiVentaProductos.repository" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.ShippingDetailRepositoryTest.givenShippingDetail_whenFindByOrderStatus_thenReturnShippingDetailFound">
+    <configuration name="ProductRepositoryTest.givenProduct_whenFindByName_thenReturnProduct" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.XYZStrore.apiVentaProductos.repository.ProductRepositoryTest.givenProduct_whenFindByName_thenReturnProduct&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProductRepositoryTest.givenProduct_whenFindByPriceLessThanAndStockLessThan_thenReturnProduct" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.XYZStrore.apiVentaProductos.repository.ProductRepositoryTest.givenProduct_whenFindByPriceLessThanAndStockLessThan_thenReturnProduct&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ShippingDetailRepositoryTest.givenShippingDetail_whenFindByConveyor_thenReturnShippingDetailFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.XYZStrore.apiVentaProductos.repository.ShippingDetailRepositoryTest.givenShippingDetail_whenFindByConveyor_thenReturnShippingDetailFound&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ShippingDetailRepositoryTest.givenShippingDetail_whenFindByOrderId_thenReturnShippingDetailFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.XYZStrore.apiVentaProductos.repository.ShippingDetailRepositoryTest.givenShippingDetail_whenFindByOrderId_thenReturnShippingDetailFound&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ShippingDetailRepositoryTest.givenShippingDetail_whenFindByOrderStatus_thenReturnShippingDetailFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.XYZStrore.apiVentaProductos.repository.ShippingDetailRepositoryTest.givenShippingDetail_whenFindByOrderStatus_thenReturnShippingDetailFound&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="ApiVentaProductosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="apiVentaProductos.main" />
@@ -91,6 +300,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ShippingDetailRepositoryTest.givenShippingDetail_whenFindByOrderStatus_thenReturnShippingDetailFound" />
+        <item itemvalue="Gradle.ShippingDetailRepositoryTest.givenShippingDetail_whenFindByConveyor_thenReturnShippingDetailFound" />
+        <item itemvalue="Gradle.ShippingDetailRepositoryTest.givenShippingDetail_whenFindByOrderId_thenReturnShippingDetailFound" />
+        <item itemvalue="Gradle.ProductRepositoryTest.givenProduct_whenFindByPriceLessThanAndStockLessThan_thenReturnProduct" />
+        <item itemvalue="Gradle.ProductRepositoryTest.givenProduct_whenFindByName_thenReturnProduct" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -111,6 +329,12 @@
       <workItem from="1711558021261" duration="3163000" />
       <workItem from="1711561209921" duration="2450000" />
       <workItem from="1711567239252" duration="989000" />
+      <workItem from="1711568244660" duration="8177000" />
+      <workItem from="1711648416878" duration="1423000" />
+      <workItem from="1711663176585" duration="17752000" />
+      <workItem from="1711691317279" duration="246000" />
+      <workItem from="1711691575322" duration="8492000" />
+      <workItem from="1711742801701" duration="541000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion de entidades y capa de repository">
       <option name="closed" value="true" />
@@ -144,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711561709464</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creacion de entidades y capa de repository">
+      <option name="closed" value="true" />
+      <created>1711568434284</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711568434284</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

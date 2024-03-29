@@ -12,10 +12,8 @@ import java.util.List;
 
 public interface OrderRepository extends JpaRepository<Order,Long> {
     List<Order> findByOrderDateBetween(LocalDateTime orderDate, LocalDateTime orderDate2);
-
     List<Order> findByCustomerAndStatus(Customer customer, Status status);
-
-    @Query("SELECT o FROM Orders o JOIN FETCH o.itemOrder WHERE o.customer = :customer")
+    @Query("SELECT o FROM orders o JOIN FETCH o.itemOrder WHERE o.customer = :customer")
     List<Order> findByCustomerWithOrderItems(@Param("customer") Customer customer);
 
 }
