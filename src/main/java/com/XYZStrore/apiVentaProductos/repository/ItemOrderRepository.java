@@ -12,7 +12,7 @@ public interface ItemOrderRepository extends JpaRepository<ItemOrder,Long> {
 
     List<ItemOrder> findByOrderId(Long id);
     List<ItemOrder> findByProductId(Long id);
-    @Query("SELECT SUM(io.quantity) * io.unitPrice FROM item_orders io WHERE io.product.id = :productId")
+    @Query("SELECT SUM(io.quantity * io.unitPrice) FROM item_orders io WHERE io.product.id = :productId")
     BigDecimal getTotalSalesAmountForProduct(@Param("productId") Long productId);
 
 }

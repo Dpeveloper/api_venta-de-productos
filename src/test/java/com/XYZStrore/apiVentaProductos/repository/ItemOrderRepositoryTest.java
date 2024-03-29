@@ -4,7 +4,6 @@ import com.XYZStrore.apiVentaProductos.AbstractDBTest;
 import com.XYZStrore.apiVentaProductos.Entities.ItemOrder;
 import com.XYZStrore.apiVentaProductos.Entities.Order;
 import com.XYZStrore.apiVentaProductos.Entities.Product;
-import com.XYZStrore.apiVentaProductos.enums.Status;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +15,7 @@ import java.util.List;
 import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.Assert.assertEquals;
 
 
 class ItemOrderRepositoryTest extends AbstractDBTest {
@@ -53,13 +53,13 @@ class ItemOrderRepositoryTest extends AbstractDBTest {
                 .build();
         productRepository.save(product);
         orderRepository.save(order);
+        itemOrderRepository.save(itemOrder);
         LinkedList<ItemOrder> itemOrders = new LinkedList<>();
         itemOrders.add(itemOrder);
-
         order.setItemOrder(itemOrders);
         product.setItemOrder(itemOrders);
 
-        itemOrderRepository.save(itemOrder);
+
     }
 
     @Test
@@ -104,6 +104,15 @@ class ItemOrderRepositoryTest extends AbstractDBTest {
         assertThat(itemOrdersFind).hasSize(1);
         assertThat(itemOrdersFind.get(0)).isNotNull();
         assertThat(itemOrdersFind.get(0).getOrder().getId()).isEqualTo(1L);
+    }
+
+    @Test
+    void givenItemOrder_whenGetTotalSalesAmountForProduct_thenReturn(){
+        Long productId = 1L;
+        BigDecimal expectedAmount = new BigDecimal("200000.0");
+        BigDecimal actualAmount = itemOrderRepository.getTotalSalesAmountForProduct(productId);
+
+        assertEquals(0, expectedAmount.compareTo(actualAmount));
     }
     @Test
     void givenItemOrder_whenDeleteById(){

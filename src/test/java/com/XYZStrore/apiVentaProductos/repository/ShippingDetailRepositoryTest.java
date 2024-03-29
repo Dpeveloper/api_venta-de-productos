@@ -2,20 +2,16 @@ package com.XYZStrore.apiVentaProductos.repository;
 
 import com.XYZStrore.apiVentaProductos.AbstractDBTest;
 import com.XYZStrore.apiVentaProductos.Entities.Order;
-import com.XYZStrore.apiVentaProductos.Entities.Payment;
 import com.XYZStrore.apiVentaProductos.Entities.ShippingDetail;
-import com.XYZStrore.apiVentaProductos.enums.PaymentMethod;
 import com.XYZStrore.apiVentaProductos.enums.Status;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class ShippingDetailRepositoryTest extends AbstractDBTest {
 
@@ -83,9 +79,9 @@ class ShippingDetailRepositoryTest extends AbstractDBTest {
 
     @Test
     void givenShippingDetail_whenFindByConveyor_thenReturnShippingDetailFound(){
-        String shippingDetalConveyor = "box travel";
+        String shippingDetailConveyor = "box travel";
 
-        ShippingDetail shippingDetailFound = shippingDetailRepository.findByConveyor(shippingDetalConveyor);
+        ShippingDetail shippingDetailFound = shippingDetailRepository.findByConveyor(shippingDetailConveyor);
 
         assertThat(shippingDetailFound).isNotNull();
         assertThat(shippingDetailFound.getId()).isEqualTo(1L);
