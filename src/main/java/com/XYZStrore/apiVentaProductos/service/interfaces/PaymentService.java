@@ -2,7 +2,6 @@ package com.XYZStrore.apiVentaProductos.service.interfaces;
 
 import com.XYZStrore.apiVentaProductos.dto.PaymentDto;
 import com.XYZStrore.apiVentaProductos.dto.PaymentSaveDto;
-import com.XYZStrore.apiVentaProductos.enumdetail.PaymentMethod;
 
 import java.time.LocalDateTime;
 import java.util.List;

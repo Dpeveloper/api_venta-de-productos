@@ -2,9 +2,7 @@ package com.XYZStrore.apiVentaProductos.service;
 
 import com.XYZStrore.apiVentaProductos.dto.PaymentDto;
 import com.XYZStrore.apiVentaProductos.dto.PaymentSaveDto;
-import com.XYZStrore.apiVentaProductos.entities.Order;
 import com.XYZStrore.apiVentaProductos.entities.Payment;
-import com.XYZStrore.apiVentaProductos.enumdetail.PaymentMethod;
 import com.XYZStrore.apiVentaProductos.exception.PaymentNotFoundException;
 import com.XYZStrore.apiVentaProductos.mapper.PaymentMapper;
 import com.XYZStrore.apiVentaProductos.repository.PaymentRepository;
@@ -67,7 +65,7 @@ public class PaymentServiceImp implements PaymentService {
 
     @Override
     public void deletePaymentById(Long id) {
-        Payment payment = paymentRepository.findById(id).orElseThrow(PaymentNotFoundException::new);
+        paymentRepository.findById(id).orElseThrow(PaymentNotFoundException::new);
         paymentRepository.deleteById(id);
     }
 

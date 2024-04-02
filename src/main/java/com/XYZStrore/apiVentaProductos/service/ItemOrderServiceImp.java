@@ -57,7 +57,7 @@ public class ItemOrderServiceImp implements ItemOrderService {
     }
     @Override
     public void deleteItemOrder(Long id) {
-        ItemOrder itemOrder = itemOrderRepository.findById(id).orElseThrow(ItemOrderNotFoundException::new);
+        itemOrderRepository.findById(id).orElseThrow(ItemOrderNotFoundException::new);
         itemOrderRepository.deleteById(id);
     }
 

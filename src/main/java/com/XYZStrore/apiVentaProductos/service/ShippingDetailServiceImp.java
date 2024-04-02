@@ -58,7 +58,7 @@ public class ShippingDetailServiceImp implements ShippingDetailService {
 
     @Override
     public void deleteShippingDetailById(Long id) {
-        ShippingDetail shippingDetail = shippingDetailRepository.findById(id).orElseThrow(ShippingDetailNotFoundException::new);
+        shippingDetailRepository.findById(id).orElseThrow(ShippingDetailNotFoundException::new);
         shippingDetailRepository.deleteById(id);
     }
 

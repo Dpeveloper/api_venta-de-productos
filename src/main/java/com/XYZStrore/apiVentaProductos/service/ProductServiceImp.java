@@ -59,7 +59,7 @@ public class ProductServiceImp implements ProductService {
 
     @Override
     public void deleteProductById(Long id) {
-        Product product = productRepository.findById(id).orElseThrow(ProductNotFoundException::new);
+        productRepository.findById(id).orElseThrow(ProductNotFoundException::new);
         productRepository.deleteById(id);
     }
 

@@ -4,28 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="757171d9-9095-43c5-87f4-3d7db33d26c4" name="Changes" comment="Service y medio repository hecho">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/controller/ItemOrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/controller/ShippingDetailController.java" afterDir="false" />
+    <list default="true" id="757171d9-9095-43c5-87f4-3d7db33d26c4" name="Changes" comment="Service y completamente repository hecho">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/repository/PaymentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/CustomerServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/CustomerServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/ItemOrderServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/ItemOrderServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/OrderServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/OrderServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/PaymentServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/PaymentServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/ProductServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/ProductServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/ShippingDetailServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/ShippingDetailServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/interfaces/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/interfaces/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/interfaces/ItemOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/interfaces/ItemOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/interfaces/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/interfaces/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/interfaces/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/interfaces/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/XYZStrore/apiVentaProductos/repository/CustomerRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/XYZStrore/apiVentaProductos/repository/CustomerRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,7 +338,7 @@
       <workItem from="1712001446699" duration="666000" />
       <workItem from="1712011356790" duration="5125000" />
       <workItem from="1712031924618" duration="4179000" />
-      <workItem from="1712072491093" duration="17399000" />
+      <workItem from="1712072491093" duration="17505000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion de entidades y capa de repository">
       <option name="closed" value="true" />
@@ -434,7 +420,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712084709404</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Service y completamente repository hecho">
+      <option name="closed" value="true" />
+      <created>1712091762888</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712091762888</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,6 +461,7 @@
     <MESSAGE value="Creacion de entidades y capa de repository" />
     <MESSAGE value="ajustes en las entidades y pruebas de integracion al repository" />
     <MESSAGE value="Service y medio repository hecho" />
-    <option name="LAST_COMMIT_MESSAGE" value="Service y medio repository hecho" />
+    <MESSAGE value="Service y completamente repository hecho" />
+    <option name="LAST_COMMIT_MESSAGE" value="Service y completamente repository hecho" />
   </component>
 </project>
