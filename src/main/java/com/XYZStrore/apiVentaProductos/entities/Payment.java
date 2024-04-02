@@ -1,6 +1,6 @@
-package com.XYZStrore.apiVentaProductos.Entities;
+package com.XYZStrore.apiVentaProductos.entities;
 
-import com.XYZStrore.apiVentaProductos.enums.PaymentMethod;
+import com.XYZStrore.apiVentaProductos.enumdetail.PaymentMethod;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -22,6 +22,7 @@ public class Payment {
     private BigDecimal fullPayment;
     @Temporal(TemporalType.TIMESTAMP)
     private LocalDateTime datePayment;
+    @Enumerated(EnumType.STRING)
     private PaymentMethod paymentMethod;
 
     public Payment() {

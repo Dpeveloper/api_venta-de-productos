@@ -1,8 +1,8 @@
 package com.XYZStrore.apiVentaProductos.repository;
 
-import com.XYZStrore.apiVentaProductos.Entities.Customer;
-import com.XYZStrore.apiVentaProductos.Entities.Order;
-import com.XYZStrore.apiVentaProductos.enums.Status;
+import com.XYZStrore.apiVentaProductos.entities.Customer;
+import com.XYZStrore.apiVentaProductos.entities.Order;
+import com.XYZStrore.apiVentaProductos.enumdetail.Status;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

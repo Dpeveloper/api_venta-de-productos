@@ -1,4 +1,4 @@
-package com.XYZStrore.apiVentaProductos.Entities;
+package com.XYZStrore.apiVentaProductos.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

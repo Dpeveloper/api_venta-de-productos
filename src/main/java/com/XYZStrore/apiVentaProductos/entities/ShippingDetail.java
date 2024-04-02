@@ -1,4 +1,4 @@
-package com.XYZStrore.apiVentaProductos.Entities;
+package com.XYZStrore.apiVentaProductos.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -15,7 +15,7 @@ public class ShippingDetail {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String addres;
+    private String address;
     private String conveyor;
     private Integer numberGuide;
 

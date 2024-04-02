@@ -1,6 +1,6 @@
 package com.XYZStrore.apiVentaProductos.repository;
 
-import com.XYZStrore.apiVentaProductos.Entities.ItemOrder;
+import com.XYZStrore.apiVentaProductos.entities.ItemOrder;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

@@ -1,10 +1,10 @@
 package com.XYZStrore.apiVentaProductos.repository;
 
 import com.XYZStrore.apiVentaProductos.AbstractDBTest;
-import com.XYZStrore.apiVentaProductos.Entities.Order;
-import com.XYZStrore.apiVentaProductos.Entities.Payment;
-import com.XYZStrore.apiVentaProductos.enums.PaymentMethod;
-import com.XYZStrore.apiVentaProductos.enums.Status;
+import com.XYZStrore.apiVentaProductos.entities.Order;
+import com.XYZStrore.apiVentaProductos.entities.Payment;
+import com.XYZStrore.apiVentaProductos.enumdetail.PaymentMethod;
+import com.XYZStrore.apiVentaProductos.enumdetail.Status;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

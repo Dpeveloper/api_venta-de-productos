@@ -1,7 +1,7 @@
 package com.XYZStrore.apiVentaProductos.repository;
 
 import com.XYZStrore.apiVentaProductos.AbstractDBTest;
-import com.XYZStrore.apiVentaProductos.Entities.Customer;
+import com.XYZStrore.apiVentaProductos.entities.Customer;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -67,11 +67,10 @@ class CustomerRepositoryTest extends AbstractDBTest {
     @Test
     void givenCustomer_whenFindByEmail_thenReturnCustomerFound(){
         String customerEmail = "@test";
-        List<Customer> customersFind = customerRepository.findByEmail(customerEmail);
+        Customer customerFind = customerRepository.findByEmail(customerEmail);
 
-        assertThat(customersFind).isNotNull();
-        assertThat(customersFind).hasSize(2);
-        assertThat(customersFind.get(0).getEmail()).isEqualTo(customerEmail);
+        assertThat(customerFind).isNotNull();
+        assertThat(customerFind.getEmail()).isEqualTo(customerEmail);
     }
 
     @Test

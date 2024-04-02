@@ -1,6 +1,6 @@
-package com.XYZStrore.apiVentaProductos.Entities;
+package com.XYZStrore.apiVentaProductos.entities;
 
-import com.XYZStrore.apiVentaProductos.enums.Status;
+import com.XYZStrore.apiVentaProductos.enumdetail.Status;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

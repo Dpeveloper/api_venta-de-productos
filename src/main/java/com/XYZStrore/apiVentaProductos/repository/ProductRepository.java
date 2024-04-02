@@ -1,6 +1,6 @@
 package com.XYZStrore.apiVentaProductos.repository;
 
-import com.XYZStrore.apiVentaProductos.Entities.Product;
+import com.XYZStrore.apiVentaProductos.entities.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.math.BigDecimal;

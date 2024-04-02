@@ -1,7 +1,7 @@
 package com.XYZStrore.apiVentaProductos.repository;
 
-import com.XYZStrore.apiVentaProductos.Entities.ShippingDetail;
-import com.XYZStrore.apiVentaProductos.enums.Status;
+import com.XYZStrore.apiVentaProductos.entities.ShippingDetail;
+import com.XYZStrore.apiVentaProductos.enumdetail.Status;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ShippingDetailRepository extends JpaRepository<ShippingDetail,Long> {

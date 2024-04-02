@@ -1,7 +1,7 @@
 package com.XYZStrore.apiVentaProductos.repository;
 
 import com.XYZStrore.apiVentaProductos.AbstractDBTest;
-import com.XYZStrore.apiVentaProductos.Entities.Product;
+import com.XYZStrore.apiVentaProductos.entities.Product;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
