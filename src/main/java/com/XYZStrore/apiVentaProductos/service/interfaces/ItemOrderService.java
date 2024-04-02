@@ -14,4 +14,5 @@ public interface ItemOrderService {
     List<ItemOrderDto> findByOrderId(Long orderId);
     List<ItemOrderDto> findByProductId(Long productId);
     BigDecimal getTotalSalesAmountForProduct(Long productId);
+    List<ItemOrderDto> findAllItemOrders();
 }

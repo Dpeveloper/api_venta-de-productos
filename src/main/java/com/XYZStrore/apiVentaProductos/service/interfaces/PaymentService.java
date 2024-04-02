@@ -9,9 +9,10 @@ import java.util.List;
 
 public interface PaymentService {
     PaymentDto savePayment(PaymentSaveDto paymentSaveDto);
+    List<PaymentDto> findAllPayments();
     PaymentDto findPaymentById(Long id);
     PaymentDto updatePayment(Long id, PaymentSaveDto paymentSaveDto);
     void deletePaymentById(Long id);
     List<PaymentDto> findByDatePaymentBetween(LocalDateTime dateTime1, LocalDateTime dateTime2);
-    List<PaymentDto> findByOrderIdAndPaymentMethod(Long orderId, PaymentMethod paymentMethod);
+    PaymentDto findByOrderId(Long orderId);
 }

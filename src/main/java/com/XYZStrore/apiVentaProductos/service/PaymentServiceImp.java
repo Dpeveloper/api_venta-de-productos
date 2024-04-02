@@ -2,6 +2,7 @@ package com.XYZStrore.apiVentaProductos.service;
 
 import com.XYZStrore.apiVentaProductos.dto.PaymentDto;
 import com.XYZStrore.apiVentaProductos.dto.PaymentSaveDto;
+import com.XYZStrore.apiVentaProductos.entities.Order;
 import com.XYZStrore.apiVentaProductos.entities.Payment;
 import com.XYZStrore.apiVentaProductos.enumdetail.PaymentMethod;
 import com.XYZStrore.apiVentaProductos.exception.PaymentNotFoundException;
@@ -34,6 +35,13 @@ public class PaymentServiceImp implements PaymentService {
     }
 
     @Override
+    public List<PaymentDto> findAllPayments() {
+        List<Payment> payments = paymentRepository.findAll();
+        return payments.stream().map(paymentMapper::paymentToPaymentDto)
+                .collect(Collectors.toList());
+    }
+
+    @Override
     public PaymentDto findPaymentById(Long id) {
         Payment payment = paymentRepository.findById(id).orElseThrow(PaymentNotFoundException::new);
         return paymentMapper.paymentToPaymentDto(payment);
@@ -59,6 +67,7 @@ public class PaymentServiceImp implements PaymentService {
 
     @Override
     public void deletePaymentById(Long id) {
+        Payment payment = paymentRepository.findById(id).orElseThrow(PaymentNotFoundException::new);
         paymentRepository.deleteById(id);
     }
 
@@ -69,12 +78,9 @@ public class PaymentServiceImp implements PaymentService {
                 .map(paymentMapper::paymentToPaymentDto)
                 .collect(Collectors.toList());
     }
-
     @Override
-    public List<PaymentDto> findByOrderIdAndPaymentMethod(Long orderId, PaymentMethod paymentMethod) {
-        List<Payment> payments = paymentRepository.findByOrderIdAndPaymentMethod(orderId, paymentMethod);
-        return payments.stream()
-                .map(paymentMapper::paymentToPaymentDto)
-                .collect(Collectors.toList());
+    public PaymentDto findByOrderId(Long orderId) {
+        Payment payment = paymentRepository.findByOrderId(orderId);
+        return paymentMapper.paymentToPaymentDto(payment);
     }
 }

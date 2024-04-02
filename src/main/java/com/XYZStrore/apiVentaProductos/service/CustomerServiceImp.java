@@ -56,9 +56,9 @@ public class CustomerServiceImp implements CustomerService {
         }
     }
     @Override
-    public CustomerDto deleteCustomerById(Long id) {
+    public void deleteCustomerById(Long id) {
         Customer customer = customerRepository.findById(id).orElseThrow(CustomerNotFoundException::new);
-        return customerMapper.customerToCustomerDto(customer);
+        customerRepository.deleteById(id);
     }
 
     @Override
@@ -71,7 +71,7 @@ public class CustomerServiceImp implements CustomerService {
 
     @Override
     public CustomerDto findByEmail(String email) {
-        Customer customer = customerRepository.findByEmail(email);
+        Customer customer = customerRepository.findByEmail(email).orElseThrow(CustomerNotFoundException::new);
         return customerMapper.customerToCustomerDto(customer);
     }
 

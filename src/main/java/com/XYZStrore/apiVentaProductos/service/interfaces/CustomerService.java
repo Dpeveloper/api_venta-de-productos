@@ -10,7 +10,7 @@ public interface CustomerService {
     CustomerDto saveCustomer(CustomerSaveDto customerSaveDto);
     CustomerDto findById(Long id);
     CustomerDto updateCustomer(Long id, CustomerSaveDto customerSaveDto);
-    CustomerDto deleteCustomerById(Long id);
+    void deleteCustomerById(Long id);
     List<CustomerDto> findAllCustomer();
     CustomerDto findByEmail(String email);
     List<CustomerDto> findByAddress(String address);

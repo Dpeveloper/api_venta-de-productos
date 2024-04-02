@@ -65,17 +65,21 @@ public class OrderServiceImp implements OrderService {
     }
     @Override
     public void deleteOrder(Long id) {
+        Order order = orderRepository.findById(id).orElseThrow(OrderNotFoundException::new);
         orderRepository.deleteById(id);
-    }
-
-    @Override
-    public List<OrderDto> findByOrderDateRange(LocalDateTime orderDate, LocalDateTime orderDate2) {
-        return null;
     }
 
     @Override
     public List<OrderDto> findByOrderDateBetween(LocalDateTime orderDate, LocalDateTime orderDate2) {
         List<Order> orders = orderRepository.findByOrderDateBetween(orderDate, orderDate2);
+        return orders.stream()
+                .map(orderMapper::orderToOrderDto)
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public List<OrderDto> findOrderByCostumerId(Long id) {
+        List<Order> orders = orderRepository.findByCustomerWithOrderItems(id);
         return orders.stream()
                 .map(orderMapper::orderToOrderDto)
                 .collect(Collectors.toList());

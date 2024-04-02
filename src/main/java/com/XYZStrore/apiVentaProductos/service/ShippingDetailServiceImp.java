@@ -16,7 +16,6 @@ import java.util.stream.Collectors;
 
 @Service
 public class ShippingDetailServiceImp implements ShippingDetailService {
-
     private final ShippingDetailRepository shippingDetailRepository;
     private final ShippingDetailMapper shippingDetailMapper;
 
@@ -59,6 +58,7 @@ public class ShippingDetailServiceImp implements ShippingDetailService {
 
     @Override
     public void deleteShippingDetailById(Long id) {
+        ShippingDetail shippingDetail = shippingDetailRepository.findById(id).orElseThrow(ShippingDetailNotFoundException::new);
         shippingDetailRepository.deleteById(id);
     }
 

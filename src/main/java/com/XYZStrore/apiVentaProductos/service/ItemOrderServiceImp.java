@@ -57,6 +57,7 @@ public class ItemOrderServiceImp implements ItemOrderService {
     }
     @Override
     public void deleteItemOrder(Long id) {
+        ItemOrder itemOrder = itemOrderRepository.findById(id).orElseThrow(ItemOrderNotFoundException::new);
         itemOrderRepository.deleteById(id);
     }
 
@@ -79,5 +80,13 @@ public class ItemOrderServiceImp implements ItemOrderService {
     @Override
     public BigDecimal getTotalSalesAmountForProduct(Long productId) {
         return itemOrderRepository.getTotalSalesAmountForProduct(productId);
+    }
+
+    @Override
+    public List<ItemOrderDto> findAllItemOrders() {
+        List<ItemOrder> itemOrders = itemOrderRepository.findAll();
+        return itemOrders.stream()
+                .map(itemOrderMapper::itemOrderToItemOrderDto)
+                .collect(Collectors.toList());
     }
 }

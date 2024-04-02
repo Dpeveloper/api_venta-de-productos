@@ -14,6 +14,7 @@ public interface OrderService {
     OrderDto findOrderById(Long id);
     OrderDto updateOrder(Long id, OrderSaveDto orderSaveDto);
     void deleteOrder(Long id);
-    List<OrderDto> findByOrderDateRange(LocalDateTime orderDate, LocalDateTime orderDate2);
+    List<OrderDto> findByOrderDateBetween(LocalDateTime orderDate, LocalDateTime orderDate2);
+    List<OrderDto> findOrderByCostumerId(Long id);
     List<OrderDto> findByCustomerAndStatus(Customer customer, Status status);
 }

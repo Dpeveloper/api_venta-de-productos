@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
 @RequestMapping(value = "/api/v1/customers")
 public class CustomerController {
     private final CustomerService customerService;
@@ -19,12 +18,12 @@ public class CustomerController {
 
     @PostMapping
     public ResponseEntity<CustomerDto> saveCustomer(@RequestBody CustomerSaveDto customerSaveDto) {
-        return ResponseEntity.ok(customerService.saveCustomer(customerSaveDto));
+        return ResponseEntity.ok().body(customerService.saveCustomer(customerSaveDto));
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<CustomerDto> getCustomerById(@PathVariable Long id) {
-        return ResponseEntity.ok(customerService.findById(id));
+        return ResponseEntity.ok().body(customerService.findById(id));
     }
 
     @PutMapping("/{id}")

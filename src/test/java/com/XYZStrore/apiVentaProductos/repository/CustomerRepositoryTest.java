@@ -67,10 +67,10 @@ class CustomerRepositoryTest extends AbstractDBTest {
     @Test
     void givenCustomer_whenFindByEmail_thenReturnCustomerFound(){
         String customerEmail = "@test";
-        Customer customerFind = customerRepository.findByEmail(customerEmail);
+        Optional<Customer> customerFind = customerRepository.findByEmail(customerEmail);
 
-        assertThat(customerFind).isNotNull();
-        assertThat(customerFind.getEmail()).isEqualTo(customerEmail);
+        assertThat(customerFind).isPresent();
+        assertThat(customerFind.get().getEmail()).isEqualTo(customerEmail);
     }
 
     @Test
