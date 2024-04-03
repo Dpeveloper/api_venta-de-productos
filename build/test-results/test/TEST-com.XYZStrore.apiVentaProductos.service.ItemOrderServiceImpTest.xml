@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.XYZStrore.apiVentaProductos.service.ItemOrderServiceImpTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-04-03T00:40:09" hostname="WIN-56ALGLMFNUG" time="2.043">
+  <properties/>
+  <testcase name="givenItemOrderService_whenGetTotalSalesAmountForProduct_thenReturnTotalSalesAmount()" classname="com.XYZStrore.apiVentaProductos.service.ItemOrderServiceImpTest" time="1.935"/>
+  <testcase name="givenItemOrderService_whenSaveItemOrder_thenReturnSavedItemOrder()" classname="com.XYZStrore.apiVentaProductos.service.ItemOrderServiceImpTest" time="0.013"/>
+  <testcase name="givenItemOrderService_whenGetAllItemOrders_thenReturnListOfItemOrder()" classname="com.XYZStrore.apiVentaProductos.service.ItemOrderServiceImpTest" time="0.023"/>
+  <testcase name="givenItemOrderService_whenDeleteItemOrder_thenVoid()" classname="com.XYZStrore.apiVentaProductos.service.ItemOrderServiceImpTest" time="0.022"/>
+  <testcase name="givenItemOrderService_whenUpdateItemOrder_thenReturnUpdatedItemOrder()" classname="com.XYZStrore.apiVentaProductos.service.ItemOrderServiceImpTest" time="0.009"/>
+  <testcase name="givenItemOrderService_whenFindItemOrderById_thenReturnFoundItemOrder()" classname="com.XYZStrore.apiVentaProductos.service.ItemOrderServiceImpTest" time="0.007"/>
+  <testcase name="givenItemOrderService_whenFindByProductId_thenReturnListOfItemOrder()" classname="com.XYZStrore.apiVentaProductos.service.ItemOrderServiceImpTest" time="0.007"/>
+  <testcase name="givenItemOrderService_whenFindByOrderId_thenReturnListOfItemOrder()" classname="com.XYZStrore.apiVentaProductos.service.ItemOrderServiceImpTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
