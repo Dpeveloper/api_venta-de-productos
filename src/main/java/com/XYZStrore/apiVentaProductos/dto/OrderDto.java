@@ -4,5 +4,5 @@ import com.XYZStrore.apiVentaProductos.enumdetail.Status;
 
 import java.time.LocalDateTime;
 
-public record OrderDto (LocalDateTime orderDate, Status status){
+public record OrderDto (Long id, LocalDateTime orderDate, Status status){
 }

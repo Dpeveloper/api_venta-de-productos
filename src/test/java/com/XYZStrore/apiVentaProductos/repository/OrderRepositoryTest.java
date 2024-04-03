@@ -119,7 +119,7 @@ class OrderRepositoryTest extends AbstractDBTest {
 
     @Test
     void givenOrder_whenFindByCustomerWithOrderItems_thenReturnOrders(){
-        List<Order> ordersFound = orderRepository.findByCustomerWithOrderItems(customer);
+        List<Order> ordersFound = orderRepository.findByCustomerWithOrderItems(customer.getId());
         assertThat(ordersFound).hasSize(1);
         assertThat(ordersFound.get(0).getId()).isEqualTo(1L);
     }
