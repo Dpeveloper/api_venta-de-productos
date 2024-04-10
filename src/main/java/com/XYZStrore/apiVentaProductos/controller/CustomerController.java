@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+@RestController
 @RequestMapping(value = "/api/v1/customers")
 public class CustomerController {
     private final CustomerService customerService;
@@ -38,7 +38,7 @@ public class CustomerController {
 
     }
 
-    @GetMapping
+    @GetMapping("/all")
     public ResponseEntity<List<CustomerDto>> findAllCustomers() {
         return ResponseEntity.ok(customerService.findAllCustomer());
     }

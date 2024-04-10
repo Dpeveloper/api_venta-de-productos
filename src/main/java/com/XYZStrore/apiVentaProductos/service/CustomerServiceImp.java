@@ -27,7 +27,7 @@ public class CustomerServiceImp implements CustomerService {
 
     @Override
     public CustomerDto saveCustomer(CustomerSaveDto customerSaveDto) {
-        Customer customer = customerMapper.CustomerSaveDtoToCustomer(customerSaveDto);
+        Customer customer = customerMapper.customerSaveDtoToCustomer(customerSaveDto);
         Customer savedCustomer = customerRepository.save(customer);
         return customerMapper.customerToCustomerDto(savedCustomer);
     }

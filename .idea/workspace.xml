@@ -4,43 +4,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="757171d9-9095-43c5-87f4-3d7db33d26c4" name="Changes" comment="Service y repository hecho">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/XYZStrore/apiVentaProductos/service/CustomerServiceImpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/XYZStrore/apiVentaProductos/service/ItemOrderServiceImpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/XYZStrore/apiVentaProductos/service/OrderServiceImpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/XYZStrore/apiVentaProductos/service/PaymentServiceImpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/XYZStrore/apiVentaProductos/service/ProductServiceImpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/XYZStrore/apiVentaProductos/service/ShippingDetailServiceImpTest.java" afterDir="false" />
+    <list default="true" id="757171d9-9095-43c5-87f4-3d7db33d26c4" name="Changes" comment="Service tests">
       <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/repository/CustomerRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/repository/CustomerRepositoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/repository/ItemOrderRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/repository/ItemOrderRepositoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/repository/OrderRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/repository/OrderRepositoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/repository/PaymentRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/repository/PaymentRepositoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/repository/ProductRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/repository/ProductRepositoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/repository/ShippingDetailRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/repository/ShippingDetailRepositoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.XYZStrore.apiVentaProductos.repository.ItemOrderRepositoryTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.XYZStrore.apiVentaProductos.repository.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.XYZStrore.apiVentaProductos.repository.ItemOrderRepositoryTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/ItemOrderRepositoryTest.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/dto/CustomerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/dto/CustomerDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/dto/ItemOrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/dto/ItemOrderDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/dto/ItemOrderSaveDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/dto/ItemOrderSaveDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/dto/OrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/dto/OrderDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/dto/PaymentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/dto/PaymentDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/dto/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/dto/ProductDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/dto/ShippingDetailDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/dto/ShippingDetailDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/XYZStrore/apiVentaProductos/repository/OrderRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/XYZStrore/apiVentaProductos/repository/OrderRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/entities/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/entities/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/mapper/CustomerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/mapper/CustomerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/mapper/CustomerMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/mapper/CustomerMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/mapper/ItemOrderMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/mapper/ItemOrderMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/mapper/OrderMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/mapper/OrderMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/mapper/PaymentMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/mapper/PaymentMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/mapper/ProductMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/mapper/ProductMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/mapper/ShippingDetailMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/mapper/ShippingDetailMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/service/CustomerServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/XYZStrore/apiVentaProductos/service/CustomerServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/AbstractDBTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/ApiVentaProductosApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/TestApiVentaProductosApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/repository/CustomerRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/repository/ItemOrderRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/repository/OrderRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/repository/PaymentRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/repository/ProductRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/repository/ShippingDetailRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/service/CustomerServiceImpTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/service/ItemOrderServiceImpTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/service/OrderServiceImpTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/service/PaymentServiceImpTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/service/ProductServiceImpTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/XYZStrore/apiVentaProductos/service/ShippingDetailServiceImpTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/com/XYZStrore/apiVentaProductos/mapper/CustomerMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/com/XYZStrore/apiVentaProductos/mapper/ItemOrderMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/com/XYZStrore/apiVentaProductos/mapper/OrderMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/com/XYZStrore/apiVentaProductos/mapper/PaymentMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/com/XYZStrore/apiVentaProductos/mapper/ProductMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/com/XYZStrore/apiVentaProductos/mapper/ShippingDetailMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.XYZStrore.apiVentaProductos.service.ItemOrderServiceImpTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.XYZStrore.apiVentaProductos.service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.XYZStrore.apiVentaProductos.service.ItemOrderServiceImpTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ItemOrderRepository.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/ItemOrderServiceImpTest.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/entities/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/mapper/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/mapper/CustomerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/mapper/ItemOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/mapper/ItemOrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/CustomerServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XYZStrore/apiVentaProductos/service/CustomerServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/XYZStrore/apiVentaProductos/repository/CustomerRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/XYZStrore/apiVentaProductos/repository/CustomerRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +111,8 @@
         <option value="package-info" />
         <option value="Interface" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -129,6 +160,7 @@
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.Build apiVentaProductos.executor": "Run",
+    "Gradle.CustomerRepositoryTest.executor": "Run",
     "Gradle.CustomerRepositoryTest.givenCustomer_whenDeleteById.executor": "Run",
     "Gradle.CustomerRepositoryTest.givenCustomer_whenFindByAddres_thenReturnCustomerFound.executor": "Run",
     "Gradle.CustomerRepositoryTest.givenCustomer_whenFindByEmail_thenReturnCustomerFound.executor": "Run",
@@ -183,6 +215,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.ApiVentaProductosApplication.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -212,8 +245,8 @@
       <recent name="com.XYZStrore.apiVentaProductos.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ItemOrderServiceImpTest">
-    <configuration name="CustomerServiceImpTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Spring Boot.ApiVentaProductosApplication">
+    <configuration name="CustomerRepositoryTest.givenCustomer_whenDeleteById" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -226,7 +259,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.XYZStrore.apiVentaProductos.service.CustomerServiceImpTest&quot;" />
+            <option value="&quot;com.XYZStrore.apiVentaProductos.repository.CustomerRepositoryTest.givenCustomer_whenDeleteById&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -237,7 +270,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ItemOrderServiceImpTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CustomerRepositoryTest.givenCustomer_whenFindByAddres_thenReturnCustomerFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -250,7 +283,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.XYZStrore.apiVentaProductos.service.ItemOrderServiceImpTest&quot;" />
+            <option value="&quot;com.XYZStrore.apiVentaProductos.repository.CustomerRepositoryTest.givenCustomer_whenFindByAddres_thenReturnCustomerFound&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -261,7 +294,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="OrderServiceImpTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CustomerRepositoryTest.givenCustomer_whenFindByEmail_thenReturnCustomerFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -274,7 +307,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.XYZStrore.apiVentaProductos.service.OrderServiceImpTest&quot;" />
+            <option value="&quot;com.XYZStrore.apiVentaProductos.repository.CustomerRepositoryTest.givenCustomer_whenFindByEmail_thenReturnCustomerFound&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -285,7 +318,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="PaymentServiceImpTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CustomerRepositoryTest.givenCustomer_whenFindById_thenReturnCustomerFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -298,7 +331,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.XYZStrore.apiVentaProductos.service.PaymentServiceImpTest&quot;" />
+            <option value="&quot;com.XYZStrore.apiVentaProductos.repository.CustomerRepositoryTest.givenCustomer_whenFindById_thenReturnCustomerFound&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -309,7 +342,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ShippingDetailServiceImpTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CustomerRepositoryTest.givenCustomer_whenFindByStratingWith_thenReturnCustomerFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -322,7 +355,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.XYZStrore.apiVentaProductos.service.ShippingDetailServiceImpTest&quot;" />
+            <option value="&quot;com.XYZStrore.apiVentaProductos.repository.CustomerRepositoryTest.givenCustomer_whenFindByStratingWith_thenReturnCustomerFound&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -343,20 +376,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ItemOrderServiceImpTest" />
-        <item itemvalue="Gradle.ShippingDetailServiceImpTest" />
-        <item itemvalue="Gradle.PaymentServiceImpTest" />
-        <item itemvalue="Gradle.OrderServiceImpTest" />
-        <item itemvalue="Gradle.CustomerServiceImpTest" />
+        <item itemvalue="Gradle.CustomerRepositoryTest.givenCustomer_whenDeleteById" />
+        <item itemvalue="Gradle.CustomerRepositoryTest.givenCustomer_whenFindByStratingWith_thenReturnCustomerFound" />
+        <item itemvalue="Gradle.CustomerRepositoryTest.givenCustomer_whenFindByAddres_thenReturnCustomerFound" />
+        <item itemvalue="Gradle.CustomerRepositoryTest.givenCustomer_whenFindByEmail_thenReturnCustomerFound" />
+        <item itemvalue="Gradle.CustomerRepositoryTest.givenCustomer_whenFindById_thenReturnCustomerFound" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -379,7 +405,14 @@
       <workItem from="1712001446699" duration="666000" />
       <workItem from="1712011356790" duration="5125000" />
       <workItem from="1712031924618" duration="4179000" />
-      <workItem from="1712072491093" duration="27282000" />
+      <workItem from="1712072491093" duration="27353000" />
+      <workItem from="1712118877663" duration="62000" />
+      <workItem from="1712690298322" duration="2898000" />
+      <workItem from="1712693240019" duration="2391000" />
+      <workItem from="1712721392378" duration="3085000" />
+      <workItem from="1712727151208" duration="2352000" />
+      <workItem from="1712729522485" duration="313000" />
+      <workItem from="1712729850130" duration="1760000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion de entidades y capa de repository">
       <option name="closed" value="true" />
@@ -477,7 +510,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712091976085</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Service tests">
+      <option name="closed" value="true" />
+      <created>1712114629015</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712114629015</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Service tests">
+      <option name="closed" value="true" />
+      <created>1712118924537</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712118924537</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,6 +561,7 @@
     <MESSAGE value="Service y medio repository hecho" />
     <MESSAGE value="Service y completamente repository hecho" />
     <MESSAGE value="Service y repository hecho" />
-    <option name="LAST_COMMIT_MESSAGE" value="Service y repository hecho" />
+    <MESSAGE value="Service tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Service tests" />
   </component>
 </project>

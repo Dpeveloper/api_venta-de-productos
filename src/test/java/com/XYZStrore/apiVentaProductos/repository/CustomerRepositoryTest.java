@@ -32,7 +32,7 @@ class CustomerRepositoryTest extends AbstractDBTest {
         customer2 = Customer.builder()
                 .id(3L)
                 .name("willson")
-                .email("@test")
+                .email("@prueba")
                 .address("street six")
                 .build();
 
@@ -45,7 +45,7 @@ class CustomerRepositoryTest extends AbstractDBTest {
         Customer customer = Customer.builder()
                 .id(2L)
                 .name("test")
-                .email("@test")
+                .email("@tes")
                 .address("street six")
                 .build();
 
