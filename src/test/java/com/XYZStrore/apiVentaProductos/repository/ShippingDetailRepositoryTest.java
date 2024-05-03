@@ -1,9 +1,9 @@
 package com.XYZStrore.apiVentaProductos.repository;
 
 import com.XYZStrore.apiVentaProductos.AbstractDBTest;
-import com.XYZStrore.apiVentaProductos.Entities.Order;
-import com.XYZStrore.apiVentaProductos.Entities.ShippingDetail;
-import com.XYZStrore.apiVentaProductos.enums.Status;
+import com.XYZStrore.apiVentaProductos.entities.Order;
+import com.XYZStrore.apiVentaProductos.entities.ShippingDetail;
+import com.XYZStrore.apiVentaProductos.enumdetail.Status;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +28,7 @@ class ShippingDetailRepositoryTest extends AbstractDBTest {
     void setUp() {
         shippingDetail = ShippingDetail.builder()
                 .id(1L)
-                .addres("street six")
+                .address("street six")
                 .conveyor("box travel")
                 .numberGuide(1004)
                 .build();
@@ -48,7 +48,7 @@ class ShippingDetailRepositoryTest extends AbstractDBTest {
     void givenShippingDetail_whenSave_thenReturnShippingDetail(){
         ShippingDetail shippingDetail = ShippingDetail.builder()
                 .id(2L)
-                .addres("street six")
+                .address("street six")
                 .conveyor("box travel")
                 .numberGuide(1004)
                 .build();
